@@ -2,12 +2,28 @@
     <title>
         MovieFinder
     </title>
+    <head>
+        <link rel="stylesheet" href="style.css" >
+        <script src="script.js"></script>
+    </head>
     <body>
         <h1>Movie Finder</h1>
         <form id="form">
             <input type="Search" id ="query" name="q" placeholder="Search genre">
             <button>Search</button>
             </form>
+
+
+            <div class="ui">
+                <p class="zoom"><span class="zoom zoomin">+</span><span class="zoom zoomout">-</span></p>
+                <p class="zoomlevel"><span class="percent">100</span> % - (<span class="width"></span>px)(<span class="height"></span>px)</p>
+                <p>Dead: <span class="dead">0</span></p>
+                <p>Alive: <span class="alive">0</span></p>
+                <p>Drawn: <span class="drawn">0</span></p>
+                <p><span class="fps">0</span> FPS</p>
+                <a class="save" href="" download="capture.png">Save</a>
+              </div>
+              
 
         
     </body>
